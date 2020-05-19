@@ -33,8 +33,4 @@ if( PLUGIN_STANDARD_QSRA )
         PRIVATE
             ${CloudCompare_SOURCE_DIR}
     )
-	
-	if( OPTION_USE_DXF_LIB )
-		target_link_DXFLIB( ${PROJECT_NAME} )
-	endif()
 endif()
